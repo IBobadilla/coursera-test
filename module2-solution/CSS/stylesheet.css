@@ -2,8 +2,15 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  margin: 15px;
   text-align: center;
+}
+
+body{
+
+
+  padding: 0;
+
 }
 
 p {
@@ -13,12 +20,17 @@ p {
   margin-left: none;
   font-family: Helvetica;
   text-align: center;
+  padding:10px 10px 10px 10px;
   
 
 }
 
+div{
+
+  padding: 10px 10px 10px 10px 
 
 
+}
 #chicken {
   border: 3px solid black;
   background-color: pink;
@@ -39,6 +51,7 @@ p {
   font: white;
   margin: 0px;
   padding: 0px;
+
 }
 
 
@@ -61,7 +74,8 @@ section {
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+  width: 90%;
+
 }
 
 /********** Large devices only **********/
@@ -76,8 +90,8 @@ section {
     margin-left:20px; 
     margin-top: 10px;
     margin-right:20px;
-    margin-bottom: 10px;
-    padding: 28px;
+    
+    padding: 28px 28px 28px 28px;
     
 
   }
@@ -131,9 +145,9 @@ section {
     margin-left:20px; 
     margin-top: 10px;
     margin-right:20px;
-    margin-bottom: 10px;
     padding: 28px;
   }
+  
   .col-md-1 {
     width: 8.33%;
   }
@@ -183,7 +197,7 @@ section {
     margin-left:20px; 
     margin-top: 10px;
     margin-right:20px;
-    margin-bottom: 10px;
+   
     padding: 28px;
   }
   .col-md-1 {
