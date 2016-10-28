@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 1px solid black;
+  height: 65px;
+ 
+}
+
+.container {
+}
+
+#navbar-header {
+}
+
+.navbar-brand h1 {
+  font-family: arial;
+  color: #000;
+  font-size: 1,5em;
+  text-transform: none;
+  text-align: middle left;
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+}
+
+p {
+  width: 80px;
+  height: 25px;
+  margin-right: none;
+  margin-left: none;
+  font-family: Helvetica;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.chi {
+  position: relative;
+    border: 1px solid black;
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    margin-left: 5px; 
+    margin-top: 10px;
+    margin-right: 5px;
+    
+    padding: 28px 28px 28px 28px;
+}
+
+.bee {
+  position: relative;
+    border: 1px solid black;
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    margin-left: 5px; 
+    margin-top: 10px;
+    margin-right: 5px;
+    
+    padding: 28px 28px 28px 28px;
+}
+
+.sus {
+  position: relative;
+    border: 1px solid black;
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    margin-left: 5px; 
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 28px 28px 28px 28px;
+}
+
+
+.chicken {
+  border: 3px solid black;
+  background-color: pink;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.beef {
+  border: 3px solid black;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font: white;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+.sushi {
+  border: 3px solid black;
+  background-color: yellow;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: yellow;
+  font: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+section {
+  text-align: bottom, center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+
+/********** Small devices only **********/
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
